@@ -1,3 +1,3 @@
-module github.com/themotka/protos
+module github.com/themotka/proto
 
 go 1.22
