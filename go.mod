@@ -1,3 +1,3 @@
-module proto-contracts
+module github.com/themotka/protos
 
 go 1.22
