@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/../jwt-sso/.idea/jwt-sso.iml" filepath="$PROJECT_DIR$/../jwt-sso/.idea/jwt-sso.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/proto-contracts.iml" filepath="$PROJECT_DIR$/.idea/proto-contracts.iml" />
     </modules>
   </component>
