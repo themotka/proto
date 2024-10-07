@@ -1,0 +1,21 @@
+syntax = "proto3";
+
+package telegram;
+
+// protoc -I proto proto/telegram/support.proto --go_out=./gen/go --go_opt=paths=source_relative --go-grpc_out=./gen/go/ --go-grpc_opt=paths=source_relative
+
+
+option go_package = "themotka.tg.support.v1;supv1";
+
+service TelegramSupportBot {
+  rpc SendMessage(SendMessageRequest) returns (SendMessageResponse);
+}
+
+message SendMessageRequest {
+  string chat_id = 1;
+  string message = 2;
+}
+
+message SendMessageResponse {
+  bool success = 1;
+}
